@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nostra</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div id="offerbar">
+    <div class="bg-black text-white h-10 px-4 flex justify-center gap-10 items-center w-full">
+      <p class="text-sm"></p>
+      <p class="cursor-pointer  text-sm font-bold">X</p>
+    </div>
+  </div>
+
+
+  <nav class="bg-white px-4 py-4 flex items-center justify-between shadow">
+    <!-- Brand -->
+    <div class="text-4xl ml-10 font-extrabold">
+      Nostra
+    </div>
+
+    <!-- Hamburger button (shown on small screens) -->
+    <button id="menu-btn" class="md:hidden focus:outline-none">
+      <svg id="icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+
+    <ul class="hidden  md:flex space-x-8 text-lg">
+      <li class="hover:text-gray-600 cursor-pointer">Home</li>
+      <li class="hover:text-gray-600 cursor-pointer">New Arrival</li>
+      <li class="hover:text-gray-600 cursor-pointer">Most Wanted</li>
+      <li class="hover:text-gray-600 cursor-pointer">Collections</li>
+      <li class="hover:text-gray-600 cursor-pointer">Contact Us</li>
+    </ul>
+  </nav>
+
+  <div id="mobile-menu" class="md:hidden hidden bg-white shadow-md">
+    <ul class="flex flex-col space-y-4 p-4 text-lg">
+      <li class="hover:text-gray-600 cursor-pointer">Home</li>
+      <li class="hover:text-gray-600 cursor-pointer">New Arrival</li>
+      <li class="hover:text-gray-600 cursor-pointer">Most Wanted</li>
+      <li class="hover:text-gray-600 cursor-pointer">Collections</li>
+      <li class="hover:text-gray-600 cursor-pointer">Contact Us</li>
+    </ul>
+  </div>
+
+  <div class="relative flex items-center" mt-10>
+    <i class="fa-solid fa-arrow-left text-white  text-7xl absolute ml-10 cursor-pointer"></i>
+    <img src="./Untitled design (2).jpg" class="w-full" alt="">
+    <img src="./Untitled design (3).jpg" class="w-full" alt="">
+    <img src="./Untitled design (4).jpg" class="w-full" alt="">
+    <img src="./Untitled design (5).jpg" class="w-full" alt="">
+    <i class="fa-solid fa-arrow-right text-white text-7xl absolute  right-4 mr-10 cursor-pointer"></i>
+  </div>
+  
+  
+</html>
+
